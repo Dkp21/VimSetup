@@ -67,6 +67,7 @@ Plugin 'effkay/argonaut.vim'
 Plugin 'ajh17/Spacegray.vim'
 Plugin 'atelierbram/Base2Tone-vim'
 Plugin 'colepeters/spacemacs-theme.vim'
+Plugin 'altercation/vim-colors-solarized'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -164,3 +165,7 @@ set updatetime=200
 
 " Enable plugin
 filetype plugin on
+
+" Git gutter setting
+set background=dark
+highlight clear SignColumn
